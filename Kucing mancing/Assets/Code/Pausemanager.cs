@@ -34,7 +34,7 @@ public class PauseManager : MonoBehaviour
     public void ExitToMenu()
     {
         Time.timeScale = 1f; // Reset waktu sebelum ganti scene
-        SceneManager.LoadScene("MainMenu"); // Ganti dengan nama scene menu
+        SceneManager.LoadScene("Main Menu"); // Ganti dengan nama scene menu
     }
 
     public void ShowPauseMenu()
