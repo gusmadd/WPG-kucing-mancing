@@ -394,6 +394,7 @@ GameObject:
   - component: {fileID: 1976173188}
   - component: {fileID: 1976173187}
   - component: {fileID: 1976173190}
+  - component: {fileID: 1976173191}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -502,6 +503,21 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   animator: {fileID: 1976173187}
+--- !u!114 &1976173191
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1976173186}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e88fa6aebc1003645888281bc6a2d74f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  fishingRod: {fileID: 0}
+  fishingSpeed: 2
+  fishingDepth: -3
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
