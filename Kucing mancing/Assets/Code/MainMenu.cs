@@ -6,7 +6,13 @@ using UnityEngine.SceneManagement;
 public class MainMenu : MonoBehaviour
 {
    public void PlayGame()
-   {
-    SceneManager.LoadSceneAsync("Gameplay");
-   }
+       {
+        Loader.Load(Loader.Scene.Gameplay);
+       }
+
+   public void ExitGame()
+       {
+           Debug.Log("Keluar dari game...");
+           Application.Quit();
+       }
 }
